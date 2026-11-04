@@ -4,6 +4,21 @@ body {
   border-radius: 10%;
 }
 
-.title {
-  
+#navigation ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444443;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#navigation li {
+  display: inline;
+  float: left;
 }

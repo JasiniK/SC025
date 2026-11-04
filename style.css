@@ -58,7 +58,7 @@ h1 {
 }
 
 /* Box Style */
-#description {
+.description {
 	padding: 10px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -68,7 +68,7 @@ h1 {
 	border-radius: 15px;
 }
 
-#description h2, #description h3, #description h4, #noteslist {
+.description h2, .description h3, .description h4, #noteslist {
 	text-align: left;
 	margin-left: 2%;
 }

@@ -2,8 +2,10 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-align: left;
   border-radius: 10%;
+  background-color: #FFBD7B;
 }
 
+/* Navigation bar */
 #navigation ul {
   list-style-type: none;
   display: flex;
@@ -21,4 +23,25 @@ body {
 #navigation li {
   display: inline;
   float: left;
+}
+
+#navigation li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navigation li a:hover {
+	background-color: #333333;
+	color: white;
+}
+
+.active {
+	background-color: #FFA852;
+	color: black;
+}
+
+.inactive {
+	color:white;
 }
